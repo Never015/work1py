@@ -6,7 +6,7 @@ st.header("🍖🍖Website Developing using Python🍖🍖")
 
 st.image('./img/21792.jpg')
 st.subheader("Aingkarat boonpleng")
-col1,col2,col3, = st.columns(3)
+col1,col2,col3 = st.columns(3)
 
 with col1 :
     st.header("skrim")
