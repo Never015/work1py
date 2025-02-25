@@ -13,7 +13,7 @@ with col1 :
     st.image("./img/skyrim.png")
 with col2 :
     st.header("cat1")
-    st.image("./img/cat.jng")
+    st.image("./img/cat.jpg")
 with col3 :
     st.header("bcat")
-    st.image("./img/hq720.jng")
+    st.image("./img/hq720.jpg")
