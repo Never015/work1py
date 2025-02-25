@@ -25,5 +25,7 @@ html = """
 """
 st.markdown(html, unsafe_allow_html=True)
 st.markdown("")
+st.subheader("cat10")
 dt = pd.read_csv("./data/iris-3.csv")
 st.write(dt.head(10))
+st.write(dt.tail(10))
