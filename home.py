@@ -44,3 +44,17 @@ if st.button("แสดงการจินตทัศน์ข้อมูล
     st.button("ไม่แสดงข้อมูล")
 else:
     st.write("ไม่แสดงข้อมูล")
+
+html_1 = """
+<div style="background-color:#4ad72d;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+<center><h5> ทำนาย </h5></center>
+</div>
+"""
+st.markdown(html_1, unsafe_allow_html=True)
+st.markdown("")
+
+pt_len = st.slider("กรุณาข้อมูล petal.length")
+pt_wd = st.slider("กรุณาข้อมูล  petal.width")
+
+sp_len = st.number_input("กรุณาข้อมูล sepal.length")
+sp_wd = st.number_input("กรุณาข้อมูล sepal.width")
