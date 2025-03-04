@@ -30,8 +30,9 @@ dt = pd.read_csv("./data/iris-3.csv")
 st.write(dt.head(10))
 st.subheader("ส่วนท้าย 10")
 st.write(dt.tail(10))
+
 dt1 = dt['petallength'].sum()
-dt2 = dt['petawidth'].sum()
+dt2 = dt['petalwidth'].sum()
 dt3 = dt['sepallength'].sum()
 dt4 = dt['sepalwidth'].sum()
 
