@@ -16,7 +16,7 @@ with col2 :
     st.image("./img/iris2.jpg")
 with col3 :
     st.header("Setosa")
-    st.image("./img/iri3.jpg")
+    st.image("./img/iris3.jpg")
 
 html = """
 <div style="background-color:#4ad72d;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
