@@ -30,3 +30,16 @@ dt = pd.read_csv("./data/iris-3.csv")
 st.write(dt.head(10))
 st.subheader("ส่วนท้าย 10")
 st.write(dt.tail(10))
+dt1 = dt['petallength'].sum()
+dt2 = dt['petawidth'].sum()
+dt3 = dt['sepallength'].sum()
+dt4 = dt['sepalwidth'].sum()
+
+dx = [dt1,dt2,dt3,dt4]
+dx2 = pd.DataFrame(dx, index=["d1","d2","d3","d4"])
+
+if st.button("แสดงการจินตทัศน์ข้อมูล"):
+    st.bar_chart(dx2)
+    st.button("ไม่แสดงข้อมูล")
+else:
+    st.write("ไม่แสดงข้อมูล")
